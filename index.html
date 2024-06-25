@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="mobile_sidebar">
+        <div onclick=closeSidebar() class="close_btn">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </div>
+        <div class="page_logo_image">
+          <img
+            class="logo"
+            src="https://gcauk.co.uk/assets/Logo-Bz2Y_Asy.png"
+            alt=""
+          />
+        </div>
+        <p>overview</p>
+        <button class="sidebar_btn top_btn">Home</button>
+        <button class="sidebar_btn">About</button>
+        <button class="sidebar_btn">Photos</button>
+        <button class="sidebar_btn">Videos</button>
+        <button class="sidebar_btn">Contact</button>
+
+        <p>Registration</p>
+        <button class="sidebar_btn">Registratin for mehejabin</button>
+        <button class="sidebar_btn">Become a mumber</button>
+      </div>
+      
+      <div class="sidebar">
+        <div class="page_logo_image">
+          <img
+            class="logo"
+            src="https://gcauk.co.uk/assets/Logo-Bz2Y_Asy.png"
+            alt=""
+          />
+        </div>
+        <p>overview</p>
+        <button class="sidebar_btn top_btn">Home</button>
+        <button class="sidebar_btn">About</button>
+        <button class="sidebar_btn">Photos</button>
+        <button class="sidebar_btn">Videos</button>
+        <button class="sidebar_btn">Contact</button>
+
+        <p>Registration</p>
+        <button class="sidebar_btn">Registratin for mehejabin</button>
+        <button class="sidebar_btn">Become a mumber</button>
+      </div>
+      <div class="main_content">
+        <div class="navbar">
+          <div onclick=showSidebar() class="menubar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="user">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+        <div class="hero_top">
+          <div class="hero_top_left">
+            <h2 class="top_heading">
+              Welcome to Greater Chattogram Association UK
+            </h2>
+            <p>
+              Welcome to the Greater Chattogram Association (UK) is a
+              non-governmental, non-profiting, non-political organisation
+              working for the vast welfare of the greater Chattogramians in
+              Bangladesh and in the United Kingdom without any discriminations
+              of casts, class, creed, culture, sect, religion and community
+              discriminations.
+            </p>
+            <button>Become a member</button>
+          </div>
+          <div class="hero_top_right">
+            <video controls>
+                <source src="https://www.google.com/search?sca_esv=4fcc697e8d17e72f&sca_upv=1&sxsrf=ADLYWIKL6XQN-CssYVavMOz8UH9EgtIL9w:1719226156383&q=react+next&tbm=vid&source=lnms&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2jopn8p7xL4A1Dm_DA2mNSwQosRsTF_c51BARl6YbCp-h8A21obTo7B6DL-GGNeWmO7xCyeaF3RbX-yvYRCEQnBpADqoX2GK1tSzAhcUaLaL-hNTAEuk6-2Z5FwBZ5YrSamXDr5H&sa=X&ved=2ahUKEwieztvCiPSGAxVC8DgGHQiwDiYQ0pQJegQIERAB&biw=1920&bih=953&dpr=1#" >
+              </video>
+          </div>
+        </div>
+
+        <div class="registration_area">
+          <div class="registration_area_leftcard">
+            <h2>Registration for Mejban</h2>
+            <p><span>Date</span>: SUNDAY 7 July 2024 (11.00 am to 11.00 pm)</p>
+            <p>
+              <span>Venue</span>: Mayfair Venue Chadwell Health 1078-1082 High
+              Rd Romford, RM6 4BD
+            </p>
+            <p>
+              <span>Entry Fee </span> : £10 (10 Years to Adult) £5 (6 year to 9
+              years and under 6 years free)
+            </p>
+            <h3>Already have registered?</h3>
+            <button>See invitation</button>
+          </div>
+
+          <div class="registration_area_middlecard">
+            <form>
+              <label>Full Name <span>*</span></label>
+              <input type="text" placeholder="Full Name" />
+              <div class="input_flex_parent">
+                <div class="input_flex">
+                  <label for="">Email Address <span>**</span></label>
+                  <input type="text" placeholder="Email Address" />
+                </div>
+                <div class="input_flex">
+                  <label for="">Phone <span>*</span></label>
+                  <input type="text" placeholder="Phone Number" />
+                </div>
+              </div>
+              <div class="guest_section">
+                <div>
+                  <label class="guset_options_label" for=""
+                    >Guest 10+ <span>*</span></label
+                  >
+                  <select name="guest" id="">
+                    <option value="Guest">Guest 10+</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="guset_options_label" for=" ">Guest (6+)</label>
+                  <select name="guest" id="">
+                    <option value="Guest">Guest 6+</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="guset_options_label" for="">Guest (6-)</label>
+                  <select name="guest" id="">
+                    <option value="Guest">Guest (Below -6)</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+              </div>
+              <label>Address in Uk<span>*</span></label>
+              <textarea rows="3" placeholder="Address in UK"></textarea>
+
+              <label for="">Your District of origin in Bangladesh</label>
+              <textarea rows="3" placeholder="Your district of origin in BD"></textarea>
+
+                  <table>
+                      <tr>
+                          <th>Age</th>
+                          <th>Fee</th>
+                    <th>Qty</th>
+                    <th>Amount</th>
+                </th>
+                <tr>
+                    <td>Guest above 10 years:</td>
+                    <td>$10</td>
+                    <td>0</td>
+                    <td>$0</td>
+                </tr>
+                <tr>
+                    <td>Guest 6 to 9 years:</td>
+                    <td>$5</td>
+                    <td>0</td>
+                    <td>$0</td>
+                </tr>
+                <tr>
+                    <td>Guest below 6 years</td>
+                    <td>$5</td>
+                    <td>0</td>
+                    <td>$0</td>
+                </tr>
+            </table>
+            <div class="total_btn_area">
+                <button class="total_btn">Total member: 0</button>
+                <button class="total_btn">$0</button>
+            </div>
+            <button class="submit_btn">Submit</button>
+            
+        </form>
+          </div>
+          <div class="registration_area_rightcard">
+            <img
+              src="https://gcauk.co.uk/assets/image-1-min-C90jI8P1.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="detail_area">
+            <div class="detail_area_leftcard">
+                <h3>We Encourage</h3>
+                    <li>Social and Economic Development</li>
+                    <li>Sharing and Development of Talents.</li>
+                    <li>Learning new skills.</li>
+                    <li>Providing Training.</li>
+                    <li>Social Activities.</li>
+                    <li>Leisure Activities.</li>
+                    <li>Educational Activities.</li>
+            </div>
+            <div class="detail_area_middlecard">
+                <h3>We Help</h3>
+                <li>To provide Educational Facilities.</li>
+                <li>To Provide Medical Facilities.</li>
+                <li>To Organise Free Medical Camps.</li>
+                <li>To improve socio-economic of Poor, rural and urban women living in the Greater Chittagong.</li>
+            </div>
+            <div class="detail_area_rightcard">
+                <h3>Our Objectives</h3>
+                    <li>To meet regularly for creative and social activities at a place accessible to all members.</li>
+                    <li>To agree and implement programme of activities of interest to all members and in the interests of the welfare of Greater Chittagonians.</li>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer_wrapper">
+                <h3>
+                    © 2024 All right reserved by Greater Chittagong Association. |
+                    Design & Developed by Dhrubo Joyti Das.
+                </h3>
+                <p>Sitemap | privacy policy</p>
+            </div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      const showSidebar = () => {
+        const sidebar = document.querySelector('.mobile_sidebar')
+        sidebar.style.display = 'flex'
+      }
+      const closeSidebar = () => {
+        const sidebar = document.querySelector('.mobile_sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+  </body>
+</html>
